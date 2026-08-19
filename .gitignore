@@ -1,0 +1,17 @@
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Build output (this plugin is no-emit, but keep it safe)
+dist/
+*.tsbuildinfo
