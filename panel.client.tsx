@@ -1,4 +1,4 @@
-import type { PluginAgentPanelProps } from "@getpaseo/plugin";
+import type { PluginAgentPanelProps } from "@getpaseo/plugin/client";
 import React from "react";
 import { ContextView } from "./context-view.client";
 

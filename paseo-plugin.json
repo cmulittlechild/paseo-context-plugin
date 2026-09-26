@@ -1,3 +1,6 @@
 {
-  "id": "paseo-magic-context-plugin"
+  "id": "paseo-magic-context-plugin",
+  "requirements": {
+    "paseo": ">=0.8.0"
+  }
 }

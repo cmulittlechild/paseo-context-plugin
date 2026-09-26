@@ -1,5 +1,5 @@
-import type { PluginSurfaceProps, PluginTheme } from "@getpaseo/plugin";
-import { usePaseo } from "@getpaseo/plugin";
+import type { PluginSurfaceProps, PluginTheme } from "@getpaseo/plugin/client";
+import { usePaseo } from "@getpaseo/plugin/client";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import type { AgentCandidate } from "./agents";

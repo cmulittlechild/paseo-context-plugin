@@ -1,5 +1,5 @@
-import type { PluginHostProps, PluginTheme } from "@getpaseo/plugin";
-import { useRpc } from "@getpaseo/plugin";
+import type { PluginHostProps, PluginTheme } from "@getpaseo/plugin/client";
+import { useRpc } from "@getpaseo/plugin/client";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { DimensionValue } from "react-native";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
