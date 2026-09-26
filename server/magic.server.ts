@@ -12,7 +12,7 @@ import type {
   QuotaProviderResult,
   QuotaResult,
   QuotaWindow,
-} from "./magic.shared";
+} from "../shared/magic.shared";
 
 /**
  * Root of the Magic Context RPC discovery tree. Each OpenCode instance writes a

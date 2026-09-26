@@ -1,6 +1,6 @@
 import type { PluginClientContext } from "@getpaseo/plugin/client";
-import { MagicContextPanel } from "./panel.client";
-import { SidebarSurface } from "./sidebar.client";
+import { MagicContextPanel } from "./client/panel.client";
+import { SidebarSurface } from "./client/sidebar.client";
 
 const PANEL_ID = "magic-context";
 const SURFACE_ID = "context";

@@ -12,7 +12,7 @@ import {
   relativeFromIso,
   relativeTime,
   sharePercent,
-} from "./format";
+} from "../shared/format";
 import type {
   QuotaProviderResult,
   QuotaResult,
@@ -20,8 +20,8 @@ import type {
   MagicSidebarErrorCode,
   MagicSidebarSnapshot,
   MagicSidebarSnapshotResult,
-} from "./magic.shared";
-import { magicSidebarSnapshotContract, quotaContract } from "./magic.shared";
+} from "../shared/magic.shared";
+import { magicSidebarSnapshotContract, quotaContract } from "../shared/magic.shared";
 
 /** Successful branch of a provider result — used for spend formatting. */
 type QuotaProviderSuccess = Extract<QuotaProviderResult, { ok: true }>;

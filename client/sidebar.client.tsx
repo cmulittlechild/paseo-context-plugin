@@ -2,8 +2,8 @@ import type { PluginSurfaceProps, PluginTheme } from "@getpaseo/plugin/client";
 import { usePaseo } from "@getpaseo/plugin/client";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
-import type { AgentCandidate } from "./agents";
-import { buildAgentCandidates, describeCandidate } from "./agents";
+import type { AgentCandidate } from "../shared/agents";
+import { buildAgentCandidates, describeCandidate } from "../shared/agents";
 import { ContextView } from "./context-view.client";
 
 const LIST_POLL_MS = 3000;

@@ -3,7 +3,7 @@
 // is unaffected; Node >= 23 strips the TypeScript types on import.
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { buildAgentCandidates, describeCandidate, toAgentCandidate } from "./agents.ts";
+import { buildAgentCandidates, describeCandidate, toAgentCandidate } from "../shared/agents.ts";
 import {
   compactTokens,
   formatPercent,
@@ -13,7 +13,7 @@ import {
   relativeFromIso,
   relativeTime,
   sharePercent,
-} from "./format.ts";
+} from "../shared/format.ts";
 import {
   discoveryDirectoryFor,
   isOpencodeProvider,
@@ -26,7 +26,7 @@ import {
   selectAnthropicCredential,
   selectLiveInstance,
   selectOAuthCredential,
-} from "./magic.server.ts";
+} from "../server/magic.server.ts";
 
 test("isOpencodeProvider matches opencode variants only", () => {
   assert.equal(isOpencodeProvider("opencode"), true);
